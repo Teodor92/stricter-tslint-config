@@ -1,0 +1,1 @@
+# stricter-tslint-config
