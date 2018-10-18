@@ -1,0 +1,26 @@
+{
+  "name": "stricter-tslint-config",
+  "version": "1.0.0",
+  "description": "A strict linting configuration for tslint.",
+  "main": "tslint.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Teodor92/stricter-tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "tslint-config"
+  ],
+  "author": "Teodor92",
+  "license": "ISC",
+  "dependencies": {
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-microsoft-contrib": "5.2.1",
+    "tslint-misc-rules": "3.5.0",
+    "tslint-sonarts": "1.8.0"
+  },
+  "peerDependencies": {
+    "tslint": "5.11.0"
+  }
+}
