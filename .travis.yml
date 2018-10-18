@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '10'
+deploy:
+  provider: npm
+  email: teodor.ivanov92@gmail.com
+  api_key:
+    secure: Ouop3dVN2dRMVfbXeUguPOodQjsXiTSUcq9RI3ZlBn/6IInul+e7EHsd/LJ8RQSCpG160eFZx5rlCMedhrEqWqQIzsxR7mkSmNz8ABq/pGJEwrXHY/CkYp6vXXSSMSqDZSTiL/lVZFvFYzL3DsqLk7B5t/VUxPSI8iU4LJv32xtfkFW8Ar7mCai7OR7x+syy1M5VqwQe4+YCD1Cj6Yt4TF4UiPhDUN/CsEcepkMH+Fwq6ip5eohFzWZGJP15suheF9q3rB+jnWgOGMaoIFxpzQ+p9QD+GXo7cSvnovLmlZqt7anM1fhvWnvhsZkPrgNhQVLbk1SX4W7c8QFMGaEaDCFktr+4y/KdH30WfyxnpREZuKWcIpHsVwKyMe8TCjA7fPJrPpm3yhVw5Luks0NHzDZqvmwrmDTTcSWlhCFu3W8Xr978LO2jO4TQCm3mmY+qO4IoZ5CA0Rh190aP/9ewntxlhYa5KoJHGJ2fNWSi14PhIIP/bnRKJjTN2uSs3JKIZ4ZKDBpN9hHsFpGo6BxUKRF4noU/XnpwFoyavGWSumRo5AcCMzeqp2VF2562dNQbtNPLSP0hoe/10uoNTjdOKPN9VDiAn7otRHeFVI+Rnpij55gakKFWjWI09rBeXjLFmi3QC2HADfbso2w5FHoLgKInK2pjXYYbGN0sfsiFp+8=
+  on:
+    repo: Teodor92/stricter-tslint-config
+    branch: master
