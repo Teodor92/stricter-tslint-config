@@ -53,7 +53,6 @@ module.exports = {
       'call-signature',
       'parameter',
       'property-declaration',
-      'variable-declaration',
       'member-variable-declaration',
     ],
     'typedef-whitespace': [
