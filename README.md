@@ -1,5 +1,9 @@
 # Stricter tslint configuration
 
+[![Build Status](https://travis-ci.org/Teodor92/stricter-tslint-config.svg?branch=master)](https://travis-ci.org/Teodor92/stricter-tslint-config)
+
+[![npm version](https://badge.fury.io/js/stricter-tslint-config.svg)](https://badge.fury.io/js/stricter-tslint-config)
+
 This package contains a strict tslint configuration combining multiple rule packages to enforce a common code style.
 
 ## How to use
