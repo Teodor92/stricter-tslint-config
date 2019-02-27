@@ -224,7 +224,7 @@ const tslintRulesConfig = {
         'check-else'
     ],
     'one-variable-per-declaration': true,
-    'ordered-imports': true,
+    'ordered-imports': false,
     'prefer-function-over-method': false,
     'prefer-method-signature': false,
     'prefer-switch': [
