@@ -1,4 +1,4 @@
-# Stricter tslint configuration
+# Stricter TSLint Configuration
 
 [![Build Status](https://travis-ci.org/Teodor92/stricter-tslint-config.svg?branch=master)](https://travis-ci.org/Teodor92/stricter-tslint-config)
 
