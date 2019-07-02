@@ -1,7 +1,7 @@
 const tslintRulesConfig = {
     'adjacent-overload-signatures': true,
     'ban-comma-operator': true,
-    'member-access': [true, 'check-accessor', 'check-constructor', 'check-parameter-property'],
+    'member-access': true,
     'member-ordering': [
         true,
         {
@@ -43,8 +43,7 @@ const tslintRulesConfig = {
         true,
         'call-signature',
         'parameter',
-        'property-declaration',
-        'member-variable-declaration',
+        'property-declaration'
     ],
     'typedef-whitespace': [
         true,
@@ -268,6 +267,17 @@ const tslintRulesConfig = {
         'check-preblock',
         'check-type-operator'
     ],
+    'ban-ts-ignore': true,
+    'function-constructor': true,
+    'increment-decrement': false,
+    'unnecessary-constructor': true,
+    'no-tautology-expression': true,
+    'static-this': true,
+    'unnecessary-else': true,
+    'no-default-import': true,
+    'unnecessary-bind': true,
+    'file-name-casing': [true, "kebab-case"],
+    'prefer-readonly': true,
 };
 
 module.exports = {
