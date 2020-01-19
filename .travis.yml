@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '10'
+- '13'
 deploy:
   provider: npm
   email: teodor.ivanov92@gmail.com
