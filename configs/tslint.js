@@ -276,8 +276,13 @@ const tslintRulesConfig = {
     'unnecessary-else': true,
     'no-default-import': true,
     'unnecessary-bind': true,
-    'file-name-casing': [true, "kebab-case"],
+    'file-name-casing': [true, 'kebab-case'],
     'prefer-readonly': true,
+    'no-for-in': true,
+    'invalid-void': true,
+    'no-promise-as-boolean': true,
+    'no-async-without-await': true,
+    'no-null-undefined-union': true,
 };
 
 module.exports = {

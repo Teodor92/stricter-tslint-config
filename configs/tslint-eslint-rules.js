@@ -71,7 +71,7 @@ const tslintEslintRulesConfig = {
     'ter-prefer-arrow-callback': [
         true
     ],
-    'ter-padded-blocks': false,
+    'ter-padded-blocks': false, // an interesting rule, but don't see any value in it.
 };
 
 module.exports = {

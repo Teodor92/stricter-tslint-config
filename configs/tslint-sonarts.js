@@ -27,7 +27,7 @@ const tslintSonarRulesConfig = {
     'no-commented-code': true,
     'no-dead-store': true,
     'no-duplicate-in-composite': true,
-    'no-duplicate-string': true,
+    'no-duplicate-string': false, // Too many false postives
     'no-duplicated-branches': true,
     'no-empty-nested-blocks': true,
     'no-extra-semicolon': true,
